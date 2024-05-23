@@ -1,9 +1,9 @@
 # MLOPs-Assignment
-# Data Processing, Training, and Inference Pipeline Automation
+# Data Processing, Training, and Inference Pipeline Automation 🚀
 
 This project automates the data preprocessing, model training, and inference pipelines using Apache Airflow. The following steps outline the creation and configuration of these pipelines.
 
-## Table of Contents
+## Table of Contents 📚
 
 1. [Project Structure](#project-structure)
 2. [Setup Instructions](#setup-instructions)
@@ -12,7 +12,7 @@ This project automates the data preprocessing, model training, and inference pip
 5. [Inference Pipeline](#inference-pipeline)
 6. [Running the Pipelines](#running-the-pipelines)
 
-## Project Structure
+## Project Structure 🗂️
 
 The project is organized as follows:
 
@@ -51,7 +51,7 @@ Assignment/
 │   │   └── utils.py
 ```
 
-## Setup Instructions
+## Setup Instructions 🛠️
 
 ### Prerequisites
 
@@ -99,7 +99,7 @@ Ensure you have the following installed:
    airflow scheduler
    ```
 
-## Data Preprocessing Pipeline
+## Data Preprocessing Pipeline 🧹
 
 1. Navigate to the `scripts` directory:
    ```sh
@@ -120,7 +120,7 @@ Ensure you have the following installed:
 
 8. Place the scripts and required files in `~/airflow/dags/Lead_scoring_data_pipeline`.
 
-### File Changes and Execution Order
+### File Changes and Execution Order 📄
 
 1. **utils.py**:
    - Split the data cleaning tasks into functions.
@@ -139,7 +139,7 @@ Ensure you have the following installed:
 5. **test_with_pytest.py**:
    - Write unit test cases for the functions to check their output against expected results.
 
-## Model Training Pipeline
+## Model Training Pipeline 🏋️‍♂️
 
 1. Navigate to the `scripts` directory:
    ```sh
@@ -154,7 +154,7 @@ Ensure you have the following installed:
 
 5. Place the scripts and required files in `~/airflow/dags/Lead_scoring_training_pipeline`.
 
-### File Changes and Execution Order
+### File Changes and Execution Order 📄
 
 1. **utils.py**:
    - Functions: `encode_features`, `get_trained_model`.
@@ -167,7 +167,7 @@ Ensure you have the following installed:
 3. **dummy.ipynb**:
    - Test all functions.
 
-## Inference Pipeline
+## Inference Pipeline 🔮
 
 1. Navigate to the `scripts` directory:
    ```sh
@@ -182,7 +182,7 @@ Ensure you have the following installed:
 
 5. Place the scripts and required files in `~/airflow/dags/Lead_scoring_inference_pipeline`.
 
-### File Changes and Execution Order
+### File Changes and Execution Order 📄
 
 1. **utils.py**:
    - Functions: `encode_data`, `input_features_check`, `load_model`, `prediction_col_check`.
@@ -194,7 +194,7 @@ Ensure you have the following installed:
 3. **dummy.ipynb**:
    - Test all functions.
 
-## Running the Pipelines
+## Running the Pipelines ▶️
 
 1. **Data Pipeline**:
    - Manually trigger the data pipeline via the Airflow UI.
@@ -210,13 +210,13 @@ Ensure you have the following installed:
 4. **Validate**:
    - Verify the outputs at each stage to ensure correctness.
 
-### Screenshots
+### Screenshots 📸
 
 Include screenshots of the Airflow UI showing the successful execution of each pipeline.
 
-### Final Note
+### Final Note 🏁
 
-Once all pipelines are running successfully, you have completed the automation workflow. Congratulations on completing the assignment!
+Once all pipelines are running successfully, you have completed the automation workflow. Congratulations on completing the assignment! 🎉
 
 ---
 
